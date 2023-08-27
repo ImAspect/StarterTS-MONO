@@ -1,0 +1,25 @@
+{
+  "name": "starterts-mono",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "@1m4sp3ct",
+  "license": "ISC",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "format": "turbo run format",
+    "start": "turbo run start"
+  },
+  "dependencies": {
+    "turbo": "latest"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.4"
+  }
+}

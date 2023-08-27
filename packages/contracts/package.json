@@ -1,0 +1,9 @@
+{
+    "name": "@starterts/contracts",
+    "version": "0.0.0",
+    "main": "contract.index.ts",
+    "types": "contract.index.ts",
+    "dependencies": {
+        "typescript": "^5.1.6"
+    }
+}
